@@ -5,64 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyWeb</title>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(247, 193, 171);
+        }
+
+        #header h1 {
+            color: brown;
+        }
+
+        #content {
+            margin-left: 450px;
+        }
+
+        #content p {
+            display: inline-block;
+            text-decoration: underline;
+            margin-left: 50px;
+        }
+
+        #recipe h4 {
+            background-color: rgb(184, 34, 34);
+            display: inline;
+            border-radius: 10px;
+            color: white;
+        }
+
+        #foot {
+            margin-left: 1000px;
+        }
+
+        #foot h2 {
+            font-family: sans-serif;
+            color: rgb(165, 109, 35);
+        }
+
+        #content b {
+            color: rgb(184, 34, 34);
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1>Eren E. Kara</h1>
-        <h3>Hakkımda</h3>
+    <header id="header">
+        <h1>
+            <i>...Çikolata Küpleri...</i>
+        </h1>
         <p>
-            Merhaba, Ben Eren E. Kara! Adana'da yaşıyorum. Aksiyon izlemeyi ve okumayı çok seviyorum. Tam bir Spider-man
-            hayranıyım! Web geliştirme ile ilgileniyorum.Kodluyoruz'un bu eğitim serisi sayesinde harika şeyler öğrendim
-            ve öğrenmeye devam ediyorum! Siz de aramıza katılın!
+            çikolatalı ve şam fıstıklı tadımlık lezzetler... Yalnızca 4 malzeme ile hazırlanan çikolata küpleri, renkli
+            kağıtlarda veya kürdan batırılarak servis edilir. Özellikle kalabalık sofralarda yer verilen çikolata
+            küpleri, doğum günü gibi <br> özel etkinliklerde de sunulabilir
         </p>
+        <b>Tarif:</b>Rukiye Beyza Sarıkaya
     </header>
-    <main>
-        <h3>İlgi Alanlarım</h3>
-        <ol>
-            <li>
-                Film
-            </li>
+    <main id="content">
+        <header>
+            <p><b>Kaç Kişilik:</b>4kişilik</p>
+            <p><b>Hazırlama Süresi:</b>30 dakika</p>
+            <p><b>Pişirme Süresi:</b>10 dakika</p>
+        </header>
+        <article id="recipe">
+            <h4>Çikolata Küpleri Tarifi İçin Malzemeler..</h4>
             <ul>
-                <li>
-                    <a href="https://www.beyazperde.com/filmler/film-258374/" target="_blank">Joker</a>
-                </li>
-                <li>Spider-Man</li>
-                <li>Yeşil Yol</li>
+                <li>350 gr bitter çikolata</li>
+                <li>150 ml krema</li>
+                <li>1 çorba kaşığı tereyağı</li>
+                <li>150 gr şamfıstık (Badem veya fındık da olabilir)</li>
             </ul>
-            <li>
-                Dizi
-            </li>
-            <ul>
-                <li>
-                    <a href="https://www.dizibox.tv/diziler/how-i-met-your-mother-izle/" target="_blank">How I Met Your
-                        Mother</a>
-                </li>
-                <li>The 100</li>
-                <li>Breaking Bad</li>
-            </ul>
-            <li>
-                Kitap
-            </li>
-            <ul>
-                <li>
-                    <a href="https://www.goodreads.com/book/show/890.Of_Mice_and_Men" target="_blank">Of Mice And
-                        Men</a>
-                </li>
-                <li>Şu Çılgın Türkler</li>
-                <li>Don Kişot</li>
-            </ul>
-        </ol>
-        <h2>Sevdiğim Filmler</h2>
-        <nav>
-            <img src="fotos/joker.png" alt="joker" title="Joker 2019" width="300">
-        </nav>
-        <p>Toplum tarafından dışlanan bir adam olan Arthur, hayatta yapayalnızdır. Sürekli bir bağ kurma arayışında olan
-            Arthur, yaşamını taktığı iki maske ile geçirir. <br> Gündüzleri, geçimini sağlamak için palyaço maskesini
-            yüzüne
-            takan Arthur, geceleri ise asla üzerinden silip atamayacağı bir maske takar.</p>
+            <h4>Çikolata Küpleri Nasıl Yapılır?</h4>
+            <ol>
+                <li> Bitter çikolatayı benmari usulü eritin.</li>
+                <li> Eriyen çikolatanın üzerine krema veya tereyağını ekleyip iyice karıştırıp tencereyi bir tezgaha
+                    alın.</li>
+                <li> Şamfıstıkları havanda çok az dövüp irili ufaklı parçalara bölün.</li>
+                <li> Ufalanan fıstıkları çikolatalı karışıma ekleyip karıştırın.</li>
+                <li> Hazırladığınız çikolatayı varsa alüminyum hazır bir kare tepsiye, yoksa kenarlarından taşarak yağlı
+                    kağıt yerleştirdiğiniz küçük bir tepsiye dökün.</li>
+                <li> Buzdolabında iki saat bekletin.</li>
+                <li> Çikolatayı kalıptan çıkartın. Kare parçalara bölün.</li>
+            </ol>
+        </article>
     </main>
+    <footer id="foot">
+        <h2>Afiyet Olsun</h2>
+    </footer>
 </body>
 
 </html>
